@@ -5,7 +5,6 @@ import { useDispatch } from 'react-redux';
 import { GetClientData } from '../../action';
 import { DeleteData } from '../../service';
 const ClientManagementList = () => {
-  console.log('first');
   const navigate = useNavigate();
   const dispatch = useDispatch();
   useEffect(() => {
