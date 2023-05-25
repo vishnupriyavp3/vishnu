@@ -6,7 +6,6 @@ import { GetClientData } from '../../action';
 import { DeleteData } from '../../service';
 const ClientManagementList = () => {
   console.log('first');
-  console.log('second');
   const navigate = useNavigate();
   const dispatch = useDispatch();
   useEffect(() => {
